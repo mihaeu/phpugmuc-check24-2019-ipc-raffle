@@ -2,4 +2,4 @@ language: php
 php:
   - '7.3'
 
-script: php index.php
+script: echo $(php index.php)
